@@ -1,0 +1,41 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.12.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.6",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "nuxt-start": "^2.14.7",
+    "path": "^0.12.7",
+    "prettier": "^2.1.2",
+    "sass-loader": "^10.0.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "@nuxtjs/style-resources": "^1.0.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "vueIndentScriptAndStyle": true,
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "printWidth": 150,
+    "arrowParens": "avoid"
+  }
+}
